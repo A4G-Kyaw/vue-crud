@@ -1,2 +1,2 @@
 # vue-crud
-CRUD Testing with vue js and laravel
+CRUD Testing with Vue Js and Laravel (SPA)
