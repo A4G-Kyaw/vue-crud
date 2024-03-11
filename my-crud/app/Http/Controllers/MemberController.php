@@ -28,7 +28,17 @@ class MemberController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        // dd($request);
+        // dd("Hi Hello");
+        $member = Member::create([
+            'name' => $request->name,
+            'contact' => $request->contact,
+            'email' => $request->email
+        ]);
+        $result = array(
+            'status' => true,
+            'msg' => 'Successfully created new member.'
+        );
     }
 
     /**

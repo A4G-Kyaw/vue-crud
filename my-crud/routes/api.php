@@ -21,3 +21,4 @@ use App\Http\Controllers\MemberController;
 
 // Route::get('/members','App\Http\Controllers\MemberController@index');
 Route::get('/members', [MemberController::class, 'index']);
+Route::post('/members', [MemberController::class, 'store']);
